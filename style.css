@@ -1,0 +1,43 @@
+body {
+    background-color: lightblue;
+    
+    
+}
+h1 {
+    color: purple;
+}
+p{
+    color: black;
+    font-size: 18px;
+}
+h2 {
+    background-color: darkturquoise;
+    text-align: center;
+    padding: 20px;
+}
+div {
+    background-color: green;
+    padding: 20px;
+}
+div.first{
+    opacity: 0.3;
+}
+div.second{
+    opacity: 0.5;
+}
+div.third{
+    opacity: 8;
+}
+p.dotted{
+    border-style: dotted;
+    border-radius: 50px;
+    padding: 10px;
+}
+p.solid{
+    border-style: solid;
+    border-left: 1px;
+    color: red;
+}
+p.dashed{
+    border-style: solid;
+}

@@ -1,6 +1,5 @@
 body {
-    background-color: lightblue;
-    
+    background-color: lightblue;   
     
 }
 h1 {
@@ -40,4 +39,148 @@ p.solid{
 }
 p.dashed{
     border-style: solid;
+}
+div.margin{
+    border: 1px solid red;
+    margin: 0px;
+    margin-left: 50px;
+    margin-right: 0%;
+    border-radius: 20px;
+}
+div.margin4{
+    border: 2px solid purple;
+    margin: 40px 100px 40px 100px;
+}
+div.marginAuto{
+    width: 300px;
+    border: 2px solid red;
+    margin: auto;
+}
+div.padding{
+    border: 2px solid blue;
+    padding-top: 70px;
+    padding-right: 25px;
+    padding-bottom: 70px;
+    padding-left: 25px;
+}
+div.paddingShort{
+    border: 2px solid palevioletred;
+    padding: 100px 50px 100px 50px;
+}
+div.cssHeight{
+    background-color: red;
+    height: 200px;
+    width: 60%;
+}
+div.cssHeight2{
+    background-color: aqua;
+    color: black;
+    height: 400px;
+    width: 500px;
+}
+div.maxwidth{
+    max-width: 500px;
+    height: 200px;
+    background-color: darkcyan;
+}
+div.modelBox{
+    background-color: bisque;
+    border: 5px solid seagreen;
+    width: 500px;
+    padding: 50px;
+    margin: 30px;
+}
+div.justify{
+    background-color: ghostwhite;
+    border: 1px solid red;
+    text-align: justify;
+    padding: 20px;
+    margin: 10px;
+}
+.bidi{
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+.textDeco{
+    text-decoration: overline;
+    text-decoration-color: green;
+}
+.textDeco1{
+    text-decoration: line-through;
+    text-decoration-color: red;
+}
+.textDeco2{
+    text-decoration: underline;
+    text-decoration-color:blueviolet
+}
+.textDeco3{
+    text-decoration: overline underline;
+    text-decoration-color:blue;
+}
+.textDeco4{
+    text-decoration: overline underline line-through;
+    text-decoration-color:darkorange;
+}
+.textDecor{
+    text-decoration: underline;
+    text-decoration-style: solid;
+}
+.textDecor1{
+    text-decoration: underline;
+    text-decoration-style: double;
+}
+.textDecor2{
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+.textDecor3{
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+.textDecor4{
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: red;
+}
+.textDecora{
+    text-decoration: underline;
+    text-decoration-thickness: auto;
+}
+.textDecora1{
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+}
+.textDecora2{
+    text-decoration: underline;
+    text-decoration-thickness: 25%;
+}
+.textDecora3{
+    text-decoration-line: underline;
+  text-decoration-color: red;  
+  text-decoration-style: double;
+  text-decoration-thickness: 5px;
+}
+.short{
+    text-decoration: underline;
+}
+.short2{
+    text-decoration: underline red;
+}
+.short3{
+    text-decoration: underline red double;
+}
+.short4{
+    text-decoration: underline red double 5px;
+}
+.decoNone{
+    text-decoration: none;
+}
+.trans{
+    text-transform: uppercase;
+}
+.trans2{
+    text-transform: lowercase;
+}
+.trans3{
+    text-transform: capitalize;
 }
